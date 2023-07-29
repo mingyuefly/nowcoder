@@ -81,7 +81,7 @@ int charNums2(string s, char ch) {
     for(auto i : s) {
         ++unorderedMap[towlower(i)];
     }
-    return unorderedMap[tolower(ch)];
+    return (int)unorderedMap[tolower(ch)];
 }
 
 int main(int argc, const char * argv[]) {
